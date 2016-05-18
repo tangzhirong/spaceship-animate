@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#control,#console{
+    width: 30%;
+}
+#control-title,#console-title{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px ;
+}
+
+#control-main{
+    background-color: gray;
+}
+
+#control-main div{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+#control-main div span{
+    color: white;
+}
+
+#control-main div button{
+    padding: 2px 5px 2px 5px;
+}
+
+#commander{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin: -50px 0 0 -50px;
+
+}
+
+.orbit {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border: 2px #555 solid;
+}
+
+#orbit0{
+    margin: -102px 0 0 -102px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#orbit1 {
+    margin: -152px 0 0 -152px;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+}
+
+
+#orbit2 {
+    margin: -202px 0 0 -202px;
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+
+#orbit3 {
+    margin: -252px 0 0 -252px;
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+}
+
+#console{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#console-text{
+    height: 250px;
+    background-color: gray;
+    overflow: scroll;
+}
+
+
+.orbit-ship0 {
+    margin: -110px 0 0 -40px;
+    -webkit-transform-origin: center 110px;
+    -moz-transform-origin: center 110px;
+    -ms-transform-origin: center 110px;
+    -o-transform-origin: center 110px;
+    transform-origin: center 110px;
+}
+
+
+.orbit-ship1 {
+    margin: -160px 0 0 -40px;
+    -webkit-transform-origin: center 160px;
+    -moz-transform-origin: center 160px;
+    -ms-transform-origin: center 160px;
+    -o-transform-origin: center 160px;
+    transform-origin: center 160px;
+}
+
+
+.orbit-ship2 {
+    margin: -210px 0 0 -40px;
+    -webkit-transform-origin: center 210px;
+    -moz-transform-origin: center 210px;
+    -ms-transform-origin: center 210px;
+    -o-transform-origin: center 210px;
+    transform-origin: center 210px;
+}
+
+
+.orbit-ship3 {
+    margin: -260px 0 0 -40px;
+    -webkit-transform-origin: center 260px;
+    -moz-transform-origin: center 260px;
+    -ms-transform-origin: center 260px;
+    -o-transform-origin: center 260px;
+    transform-origin: center 260px;
+}
+
+
+.space-ship {
+    background-color: greenyellow;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+.energy {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.text {
+    position: relative;
+    left: 0;
+    top: -25px;
+}
